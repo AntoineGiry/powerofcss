@@ -20,6 +20,7 @@ nav {
 nav .main-logo{
   grid-row: 1/1;
   display: inline-block;
+  margin : 0 4rem 0 4rem ;
 }
 nav ul {
   grid-row: 1/1;
@@ -30,12 +31,12 @@ nav li{
   right: 0;
   display: inline-block;
 }
-nav a:link, a:visited{
+li a{
   text-decoration: none;
   margin: 4rem;
   color: #333;
 }
-nav a:hover, nav a:active{
+li a:hover, li a:active{
   color: #6B5AED;
 }
 

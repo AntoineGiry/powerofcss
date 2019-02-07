@@ -21,3 +21,7 @@
   .button-see-more:active{
     background-color: rgb(83, 60, 255);
   }
+
+  .button-see-more a {
+    color: white;
+  }
