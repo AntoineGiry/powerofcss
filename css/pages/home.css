@@ -1,0 +1,90 @@
+/*************/
+/* HOME PAGE */
+/*************/
+
+/*************************
+/* Section 01 Resize Me */
+.block-image-content{
+    max-width: 25%;
+    height: 30rem;
+    box-shadow: 0 0 26px rgb(198, 209, 230, .5);
+}
+.block-image-content img{
+    width: 100%;
+    height: 100%;
+}
+.block-image-bg{
+    width: 60%;
+    height: 30rem;
+    border: solid 18px #ffffff;
+    background-image:url("../images/large/02-monkey-lg.jpg") ;
+    background-color:#c7c7c7;
+}
+.section-foot-content{
+    padding-top : 5rem;
+    text-align: right;
+}
+
+/********************************/
+/* Section 02  Colonnes de texte*/
+.text-3-columns{
+    columns: 10rem 3;
+    padding: 1rem;
+    /* Goutière */
+    column-gap: 4rem;
+    /*Séparateur de colonne */
+    column-rule: .05rem solid rgb(100, 100, 100);
+    /* définis la manière de remplire des colonnes  Balance-all ou Auto*/
+    column-fill: initial;
+}
+
+/*******************/
+/* Section 03 Flex */
+.square-flex-item{
+    background: tomato;
+    margin: 1.5rem;
+    width: 20rem;
+    height: 15rem;
+  }
+  .square-flex-item p{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+/*******************/
+/* Section 04 Grid */
+.block-grid-gorilla{
+    background-color: #f4f8fe;
+    width: 100%;
+    border-radius: 0.5em;
+    height: 25rem;
+  }
+.block-grid-gorilla img{
+    height: 100%;
+    width: 100%;
+  }
+.block-grid-gorilla h3, .block-grid-gorilla p{
+    padding : 1em;
+  }
+  .card-first-row{
+    grid-column: span 3;
+  }
+  .card-last-row{
+    grid-column: span 2;
+  }
+
+/***********************/
+/* Section 05 Transforms */
+.square-transform{
+    transition:all 0.3s ease;
+}
+.square-animate{
+    animation: skew 2s infinite;
+    animation-direction: alternate;
+}
+.button-animation-swing:hover{
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+}

@@ -1,0 +1,125 @@
+
+/************
+/* GENERAL */
+/***************************************/
+/* Primary color :   color: #6B5AED;   */
+/***************************************/
+
+
+/*****************
+/* NAVIGATION  */
+nav {
+  display: grid;
+  align-items: center;
+  padding : 1rem;
+  height: auto;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+nav .main-logo{
+  grid-row: 1/1;
+  display: inline-block;
+}
+nav ul {
+  grid-row: 1/1;
+  display: inline-block;
+  list-style-type: none;
+}
+nav li{
+  right: 0;
+  display: inline-block;
+}
+nav a:link, a:visited{
+  text-decoration: none;
+  margin: 4rem;
+  color: #333;
+}
+nav a:hover, nav a:active{
+  color: #6B5AED;
+}
+
+
+
+/************/
+/* HEADER  */
+.header-content{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+
+/************/
+/* SECTION */
+@media screen and (min-width: 960px) {
+  .section{
+    padding: 5rem 20rem 10rem 20rem;
+    margin: 0 auto;
+  }
+}
+.section{
+    padding: 5rem;
+    margin: 0 auto;
+}
+.section-blue-background{
+  background-color: #f4f8fe;
+}
+.section-head-content{
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.section-core-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row wrap;
+}
+
+/*******************/
+/* Section footer */
+.footer-page {
+  padding: 5rem;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.block-author {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  background-color: #fff;
+}
+.author-picture{
+  grid-column: 1/2;
+  height: 10rem;
+  width: 10rem;
+}
+.author-picture img{
+  width: 100%;
+  height: 100%;
+}
+.author-info{
+    grid-column: 2/3;
+}
+footer a:active, footer a:hover {
+  color:#6B5AED;
+}
+.footer-social a img{
+    width: 24px;
+    height: 24px;
+    padding: 1rem 1rem 1rem 0rem;
+}

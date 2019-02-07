@@ -1,0 +1,63 @@
+
+/* CENTRER vertical ET horizontal UN ELEMENT DANS SON BLOCK */
+.flex-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+/* POSITION EN COLONNE EN FLEX CENTRÉ*/
+.section-flex{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.flex-basis{
+	flex-basis: 100%;
+}
+
+/* CENTRER UNE IMAGE BACKGROUND */
+.background-center{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* CENTRER UNE IMAGE DE CONTENU */
+.objectfit-cover{
+    object-fit: cover;
+}
+
+/* GRILLE 5 COLONES */
+.grid-col-5{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    grid-gap: 2em;
+}
+
+/* GRILLE 6 COLONES */
+.grid-col-6{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(6, 1fr);
+	justify-items: center;
+	grid-gap: 2em;
+}
+
+
+/* BLOC DE DEMO */ 
+.element {
+    text-align: center;
+    display: inline-block;
+    background-color: #0074d9;
+    height: 10rem;
+    width: 10rem;
+    color: white;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}

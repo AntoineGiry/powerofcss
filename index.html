@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="css/base/reset.css">
+  <link rel="stylesheet" href="css/base/other.css">
+  <link rel="stylesheet" href="css/base/animations.css">
+  <link rel="stylesheet" href="css/base/font.css">
+
+  <link rel="stylesheet" href="css/components/button.css">
+
+  <link rel="stylesheet" href="css/layout/layout.css">
+  
+
+  <link rel="stylesheet" href="css/base/scaffolding.css">
+
+  <link rel="stylesheet" href="css/pages/home.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Learning CSS</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="main-logo">
+        <a href="index.html" title="home">Learning CSS</a>
+      </div>
+
+      <ul class="main-nav-linkstyle">
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="pages/responsive.html" title="Responsive">Responsive</a></li>
+        <li><a href="pages/flex.html" title="Flexbox">Flex</a></li>
+        <li><a href="pages/grid.html" title="Grid Layout">Grid</a></li>
+        <li><a href="pages/transforms.html" title="CSS Transforms">Transforms</a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <div class="main-title-content">
+        <h1> Let's see what CSS can do </h1>
+      </div>
+      <div class="main-subtitle-content">
+        <p>This website will show you some possibilities you can explore with CSS</p>
+      </div>
+    </div>
+  </header>
+
+
+  <!--01  Responsive  -->
+  <section class="section section-blue-background">
+    <div class="section-head-content">
+      <div class="section-title-content">
+        <h1> Responsive image page </h1>
+      </div>
+
+      <div class="section-subtitle-content">
+        <p>First, we'll see how to make your image responsive, both content and background images</p>
+      </div>
+    </div>
+
+    <div class="section-core-content">
+      <div class="block-image-content">
+        <img class="objectfit-cover" src="img/md/05-monkey-md.jpg" alt="image de singe" class="cover">
+      </div>
+
+      <div class="block-image-bg background-center">
+
+      </div>
+    </div>
+    <div class="section-foot-content">
+      <button class="button-see-more">See more</button>
+    </div>
+  </section>
+
+  <!-- 02  3 colonnes de txt  -->
+  <section class="section section-column-text">
+    <div class="section-head-content">
+      <div class="section-title-content">
+        <h1> Text columns is magic </h1>
+      </div>
+      <div class="section-subtitle-content">
+        <p>No Flex, no Grid just "column" property</p>
+      </div>
+    </div>
+    <div class="text-3-columns">
+      <p>Apes (Hominoidea) are a branch of Old World tailless anthropoid primates native to Africa and Southeast Asia. They are the sister group of the Old World monkeys, together forming the catarrhine clade. They are distinguished from other primates by a wider degree of freedom of motion at the shoulder joint as evolved by the influence of brachiation. In traditional and non-scientific use, the term "ape" excludes humans, and is thus not equivalent to the scientific taxon Hominoidea. There are two extant branches of the superfamily Hominoidea: the gibbons, or lesser apes; and the hominids, or great apes.
+
+        The family Hylobatidae, the lesser apes, include four genera and a total of sixteen species of gibbon, including the lar gibbon and the siamang, all native to Asia. They are highly arboreal and bipedal on the ground. They have lighter bodies and smaller social groups than great apes.
+        The family Hominidae (hominids), the great apes, includes three extant species of orangutans and their subspecies, two extant species of gorillas and their subspecies, two extant species of chimpanzees and their subspecies, and one extant species of humans in a single extant subspecies.
+        </p>
+    </div>
+  </section>
+
+  <!-- 03 Demo flexbox -->
+  <section class="section section-blue-background">
+    <div class="section-head-content">
+      <div class="section-title-content">
+        <h1> Welcom to Flex World </h1>
+      </div>
+      <div class="section-subtitle-content">
+        <p>Let's see what we can do with the powerful Flex property</p>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="square-flex-item">
+        <p>1</p>
+      </div>
+      <div class="square-flex-item">
+        <p>2</p>
+      </div>
+      <div class="square-flex-item">
+        <p>3</p>
+      </div>
+      <div class="square-flex-item">
+        <p>4</p>
+      </div>
+      <div class="square-flex-item">
+        <p>5</p>
+      </div>
+      <div class="square-flex-item">
+        <p>6</p>
+      </div>
+      <div class="square-flex-item">
+        <p>7</p>
+      </div>
+    </div>
+    <div class="section-foot-content">
+      <button class="button-see-more">See more</button>
+    </div>
+  </section>
+
+
+
+  <!-- 04     5 bloc de singes en Grid avec image et titre  -->
+  <section class="section">
+    <div class="section-head-content">
+      <div class="section-title-content">
+        <h1> I want to see a real grid </h1>
+      </div>
+      <div class="section-subtitle-content">
+        <p>Flex is good, but look at what grid can do</p>
+      </div>
+    </div>
+    <div class="grid-col-6">
+      <div class="block-grid-gorilla card-first-row">
+        <img class="objectfit-cover" src="css/images/md/01-monkey-md.jpg" alt="image de gorille">
+      </div>
+      <div class="block-grid-gorilla card-first-row">
+        <img class="objectfit-cover" src="css/images/md/02-monkey-md.jpg" alt="image de gorille">
+      </div>
+      <div class="block-grid-gorilla card-last-row">
+        <img class="objectfit-cover" src="css/images/md/03-monkey-md.jpg" alt="image de gorille">
+      </div>
+      <div class="block-grid-gorilla card-last-row">
+        <img class="objectfit-cover" src="css/images/md/04-monkey-md.jpg" alt="image de gorille">
+      </div>
+      <div class="block-grid-gorilla card-last-row">
+        <img class="objectfit-cover" src="css/images/md/05-monkey-md.jpg" alt="image de gorille">
+      </div>
+    </div>
+    <div class="section-foot-content">
+      <button class="button-see-more"><a href="pages/grid.html" title="Grid Layout">See more</a></button>
+    </div>
+  </section>
+
+
+  <!-- 05 Exemple de CSS Transforms -->
+  <section class="section section-blue-background">
+    <div class="section-head-content">
+      <div class="section-title-content">
+        <h1> Make some animations without any JS </h1>
+      </div>
+      <div class="section-subtitle-content">
+        <p>No need to be an engineer in JavaScript to create butiful animations</p>
+      </div>
+    </div>
+    <div class="square-transform flex-container">
+      <div class="element square-animate">
+      </div>
+      <div class="element square-animate">
+      </div>
+      <div class="element square-animate">
+      </div>
+    </div>
+    <div class="section-foot-content">
+      <button class="button-see-more button-animation-swing">See more</button>
+    </div>
+  </section>
+
+
+  <footer class="footer-page">
+    <div class="block-author">
+      <div class="author-picture">
+        <img class="objectfit-cover" src="img/pp.jpg" alt="photo de l'auteur">
+      </div>
+      <div class="autho-info">
+        <h3> contact </h3>
+        <p>Antoine GIRY </p>
+        <p>ECV Digital</p>
+        <div class="footer-social">
+          <a href="https://www.antoinegiry.fr"><img alt="Website" src="img/icn/icn-web.png"></a>
+          <a href="https://www.behance.net/antoinegiry"><img alt="Behance" src="img/icn/icn-behance.png"></a>
+          <a href="https://www.github.com/AntoineGiry"><img alt="Github" src="img/icn/icn-git.png"></a>
+        </div>
+    </div>
+
+    </div>
+    <div class="nav_footer">
+      <h3>Site navigation</h3>
+      <ul>
+        <li><a href="#" title="Home">Home</a></li>
+        <li><a href="pages/responsive.html" title="Responsive">Responsive</a></li>
+        <li><a href="#" title="Flexbox">Flex</a></li>
+        <li><a href="#" title="Grid Layout">Grid</a></li>
+        <li><a href="#" title="CSS Transforms">Transforms</a></li>
+      </ul>
+    </div>
+
+  </footer>
+</body>
+
+</html>

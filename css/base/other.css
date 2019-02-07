@@ -1,0 +1,11 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: "lato", sans-serif;
+	/*font-size: 16px; */
+	line-height: 1.7;
+	color: #777;
+	background-color: white;
+	box-sizing: border-box;
+}
