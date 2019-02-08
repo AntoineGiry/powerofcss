@@ -1,0 +1,32 @@
+.container {
+    border : 1rem solid rgb(192, 191, 191);
+    border-radius: 1rem;
+    height: auto;
+}
+.custom-height {
+    height : 50rem;
+}
+.flex-style-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+.flex-style-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.grow-element {
+    flex-grow: 3;
+}
+
+.align-element-bottom {
+    align-self: flex-end
+}
+.align-element-top {
+    align-self: flex-start;
+}

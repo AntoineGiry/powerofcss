@@ -38,20 +38,6 @@
     column-fill: initial;
 }
 
-/*******************/
-/* Section 03 Flex */
-.square-flex-item{
-    background: tomato;
-    margin: 1.5rem;
-    width: 20rem;
-    height: 15rem;
-  }
-  .square-flex-item p{
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
 
 /*******************/
 /* Section 04 Grid */
