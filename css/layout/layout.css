@@ -68,7 +68,6 @@ li a:hover, li a:active{
     padding: 5rem;
     margin: 0 auto;
 }
-
 .section__head{
   max-width: 70%;
   margin: 0 auto;
@@ -85,7 +84,10 @@ li a:hover, li a:active{
   justify-content: space-between;
   flex-flow: row wrap;
 }
-
+.section__footer{
+  padding-top : 5rem;
+  text-align: right;
+}
 /*******************/
 /* Section footer */
 .block__footer {
