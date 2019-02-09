@@ -1,0 +1,16 @@
+.element--transform{
+    transition:all 0.3s ease-in;
+}
+
+.element--rotate{
+    animation: rotate 1.5s infinite;
+    animation-direction: alternate;
+}
+.element--skewy{
+    animation: skewy 1.5s infinite;
+    animation-direction: alternate;
+}
+.element--translate{
+    animation: translate 1.5s infinite;
+    animation-direction: alternate;
+}
