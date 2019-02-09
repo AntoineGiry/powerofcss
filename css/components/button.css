@@ -1,6 +1,6 @@
 /*********************/
 /*  BOUTON SEE MORE */
-.button-see-more{
+.button--see-more{
     background-color: #6B5AED;
     text-decoration: none;
     border-radius: 100rem;
@@ -13,15 +13,19 @@
     height: 6rem;
     transition: all .2s ease-in;
   }
-  .button-see-more:hover{
+  .button--see-more:hover{
     background-color: rgb(142, 128, 247);
     box-shadow: 0 0 16px rgb(198, 209, 230, 1);
   
   }
-  .button-see-more:active{
+  .button--see-more:active{
     background-color: rgb(83, 60, 255);
   }
 
-  .button-see-more a {
+  .button--see-more a {
     color: white;
   }
+  .button--animation--swing:hover{
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+}

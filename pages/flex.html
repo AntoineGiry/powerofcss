@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,11 +21,11 @@
 <body>
     <header>
         <nav>
-            <div class="main-logo">
+            <div class="main__logo">
                 <a href="../index.html" title="home">Learning CSS</a>
             </div>
 
-            <ul class="main-nav-linkstyle">
+            <ul class="main__nav--linkstyle">
                 <li><a href="../index.html" title="Home">Home</a></li>
                 <li><a href="responsive.html" title="Responsive">Responsive</a></li>
                 <li><a href="flex.html" title="Flexbox">Flex</a></li>
@@ -32,106 +33,105 @@
                 <li><a href="transforms.html" title="CSS Transforms">Transforms</a></li>
             </ul>
         </nav>
-        <div class="header-content">
-            <div class="main-title-content">
+        <div class="main__header">
+            <div class="main__title">
                 <h1> Dear Flexbox </h1>
             </div>
-            <div class="main-subtitle-content">
+            <div class="main__subtitle">
                 <p> My old good friend</p>
             </div>
         </div>
     </header>
 
-    <section class="section section-blue-background">
-        <div class="section-head-content">
-            <div class="section-title-content">
+    <section class="section section--blue">
+        <div class="section__head">
+            <div class="section__title">
                 <h1> Flex Grow : responsive element </h1>
             </div>
-            <div class="section-subtitle-content">
-                <p>You can decide how much space your element will take in the container </p>
+            <div class="section__subtitle">
+                <p>You can decide how much space your element will take in the container. (Resize your window) </p>
             </div>
         </div>
-        <div class="container flex-style-left">
-            <div class="square-flex-item grow-element"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item grow-element"></div>
-            <div class="square-flex-item"></div>
+        <div class="container flex--left">
+            <div class="square square--grow"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square square--grow"></div>
+            <div class="square"></div>
         </div>
     </section> 
-    <section class="section section-blue-background">
-        <div class="section-head-content">
-            <div class="section-title-content">
+    <section class="section section--blue">
+        <div class="section__head">
+            <div class="section__title">
                 <h1> Flex Wrap :  wrap your element </h1>
             </div>
-            <div class="section-subtitle-content">
-                <p> Stay inline or create columns ? </p>
+            <div class="section__subtitle">
+                <p> Stay inline or create columns ? (Resize your window) </p>
             </div>
         </div>
-        <div class="container flex-style-wrap">
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
+        <div class="container flex--wrap">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
         </div>
     </section> 
 
-    <section class="section section-blue-background">
-        <div class="section-head-content">
-            <div class="section-title-content">
+    <section class="section section--blue">
+        <div class="section__head">
+            <div class="section__title">
                 <h1> Align Self : individual items positionning  </h1>
             </div>
-            <div class="section-subtitle-content">
+            <div class="section__subtitle">
                 <p> Choose the postition of all your items</p>
             </div>
         </div>
-        <div class="container flex-container custom-height">
-            <div class="square-flex-item align-element-bottom"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item"></div>
-            <div class="square-flex-item align-element-top"></div>
-            <div class="square-flex-item"></div>
+        <div class="container container--flex height--custom">
+            <div class="square square--align-bottom"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square square--align-top"></div>
+            <div class="square"></div>
         </div>
     </section> 
 
-    <footer class="footer-page">
-        <div class="block-author">
-            <div class="author-picture">
-                <img class="objectfit-cover" src="../img/pp.jpg" alt="photo de l'auteur">
+    <footer class="block__footer">
+        <div class="block__footer__author">
+          <div class="author__picture">
+            <img class="objectfit--cover" src="../img/pp.jpg" alt="photo de l'auteur">
+          </div>
+          <div class="autho__info">
+            <h3> contact </h3>
+            <p>Antoine GIRY </p>
+            <p>ECV Digital</p>
+            <div class="social">
+              <a href="https://www.antoinegiry.fr"><img alt="Website" src="../img/icn/icn-web.png"></a>
+              <a href="https://www.behance.net/antoinegiry"><img alt="Behance" src="../img/icn/icn-behance.png"></a>
+              <a href="https://www.github.com/AntoineGiry"><img alt="Github" src="../img/icn/icn-git.png"></a>
             </div>
-            <div class="autho-info">
-                <h3> contact </h3>
-                <p>Antoine GIRY </p>
-                <p>ECV Digital</p>
-                <div class="footer-social">
-                    <a href="https://www.antoinegiry.fr"><img alt="Website" src="../img/icn/icn-web.png"></a>
-                    <a href="https://www.behance.net/antoinegiry"><img alt="Website" src="../img/icn/icn-behance.png"></a>
-                    <a href="https://www.github.com/AntoineGiry"><img alt="Website" src="../img/icn/icn-git.png"></a>
-                </div>
-            </div>
-
         </div>
-        <div class="nav_footer">
-            <h3>Site navigation</h3>
-            <ul>
-                <li><a href="../index.html" title="Home">Home</a></li>
-                <li><a href="responsive.html" title="Responsive">Responsive</a></li>
-                <li><a href="flex.html" title="Flexbox">Flex</a></li>
-                <li><a href="grid.html" title="Grid Layout">Grid</a></li>
-                <li><a href="transforms.html" title="CSS Transforms">Transforms</a></li>
-            </ul>
+    
         </div>
-
+        <div class="block__footer__nav">
+          <h3>Site navigation</h3>
+          <ul>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="pages/responsive.html" title="Responsive">Responsive</a></li>
+            <li><a href="pages/flex.html" title="Flexbox">Flex</a></li>
+            <li><a href="pages/grid.html" title="Grid Layout">Grid</a></li>
+            <li><a href="pages/transforms.html" title="CSS Transforms">Transforms</a></li>
+          </ul>
+        </div>
     </footer>
 </body>
 

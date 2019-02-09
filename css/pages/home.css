@@ -4,30 +4,30 @@
 
 /*************************
 /* Section 01 Resize Me */
-.block-image-content{
+.block__image--content{
     max-width: 25%;
     height: 30rem;
     box-shadow: 0 0 26px rgb(198, 209, 230, .5);
 }
-.block-image-content img{
+.block__image--content img{
     width: 100%;
     height: 100%;
 }
-.block-image-bg{
+.block__image--bg{
     width: 60%;
     height: 30rem;
     border: solid 18px #ffffff;
     background-image:url("../images/large/02-monkey-lg.jpg") ;
     background-color:#c7c7c7;
 }
-.section-foot-content{
+.section__footer{
     padding-top : 5rem;
     text-align: right;
 }
 
 /********************************/
 /* Section 02  Colonnes de texte*/
-.text-3-columns{
+.block__text--3cols{
     columns: 10rem 3;
     padding: 1rem;
     /* Goutière */
@@ -41,36 +41,32 @@
 
 /*******************/
 /* Section 04 Grid */
-.block-grid-gorilla{
+.block__grid--gorilla{
     background-color: #f4f8fe;
     width: 100%;
     border-radius: 0.5em;
     height: 25rem;
   }
-.block-grid-gorilla img{
+.block__grid--gorilla img{
     height: 100%;
     width: 100%;
   }
-.block-grid-gorilla h3, .block-grid-gorilla p{
+.block__grid--gorilla h3, .block__grid--gorilla p{
     padding : 1em;
   }
-  .card-first-row{
+  .card--first-row{
     grid-column: span 3;
   }
-  .card-last-row{
+  .card--last-row{
     grid-column: span 2;
   }
 
 /***********************/
 /* Section 05 Transforms */
-.square-transform{
+.square--transform{
     transition:all 0.3s ease;
 }
-.square-animate{
+.square--animate{
     animation: skew 2s infinite;
     animation-direction: alternate;
-}
-.button-animation-swing:hover{
-    animation: swing 1s ease;
-    animation-iteration-count: 1;
 }

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,11 +21,11 @@
 <body>
     <header>
         <nav>
-            <div class="main-logo">
+            <div class="main__logo">
                 <a href="../index.html" title="home">Learning CSS</a>
             </div>
 
-            <ul class="main-nav-linkstyle">
+            <ul class="main__nav--linkstyle">
                 <li><a href="../index.html" title="Home">Home</a></li>
                 <li><a href="responsive.html" title="Responsive">Responsive</a></li>
                 <li><a href="flex.html" title="Flexbox">Flex</a></li>
@@ -32,11 +33,11 @@
                 <li><a href="transforms.html" title="CSS Transforms">Transforms</a></li>
             </ul>
         </nav>
-        <div class="header-content">
-            <div class="main-title-content">
+        <div class="main__header">
+            <div class="main__title">
                 <h1> Responsive images without Media querry </h1>
             </div>
-            <div class="main-subtitle-content">
+            <div class="main__subtitle">
                 <p>Create reponsive content or background image</p>
             </div>
         </div>
@@ -44,84 +45,83 @@
 
 
     <!-- RESPONSIVE LARGE IMAGE BACKGROUND -->
-    <section class="section section-blue-background section-flex">
-        <div class="section-head-content flex-basis">
-            <div class="section-title-content">
+    <section class="section section--blue container--flex">
+        <div class="section__head flex-basis">
+            <div class="section__title">
                 <h1> A responsive background </h1>
             </div>
-            <div class="section-subtitle-content">
+            <div class="section__subtitle">
                 <p>Resize your windows, look at this awesome responsive background image </p>
             </div>
         </div>
-        <div class="large-img background-center flex-container">
-            <div class="background-center-text">
+        <div class="image--large background--center container--flex">
+            <div class="background__text--center">
                 <p>Resize me </p>
             </div>
         </div>
     </section>
 
     <!-- FIXED IMAGE BACKGROUND -->
-    <section class="section section-flex">
-        <div class="section-head-content">
-            <div class="section-title-content">
+    <section class="section container--flex">
+        <div class="section__head">
+            <div class="section__title">
                 <h1> A fixed background </h1>
             </div>
-            <div class="section-subtitle-content">
+            <div class="section__subtitle">
                 <p>Here is a simple fixed background</p>
             </div>
         </div>
-        <div class="fixed-background flex-basis background-center">
+        <div class="background--fixed flex-basis background--center">
         </div>
     </section>
 
 
     <!-- STRIP IMAGE RESPONSIVE -->
-    <section class="section section-blue-background section-flex">
-        <div class="section-head-content">
-            <div class="section-title-content">
+    <section class="section section--blue container--flex">
+        <div class="section__head">
+            <div class="section__title">
                 <h1> Create responsive content images </h1>
             </div>
-            <div class="section-subtitle-content">
+            <div class="section__subtitle">
                 <p> Object fit, powerfull and simple</p>
             </div>
         </div>
-        <div class="img-responsive-strip">
-            <img class="img-strip objectfit-cover" src="../css/images/large/01-monkey-lg.jpg" alt="image de gorille">
-            <img class="img-strip objectfit-cover" src="../css/images/large/02-monkey-lg.jpg" alt="image de gorille">
-            <img class="img-strip objectfit-cover" src="../css/images/large/03-monkey-lg.jpg" alt="image de gorille">
+        <div class="strip">
+            <img class="strip__image objectfit--cover" src="../css/images/large/01-monkey-lg.jpg" alt="image de gorille">
+            <img class="strip__image objectfit--cover" src="../css/images/large/02-monkey-lg.jpg" alt="image de gorille">
+            <img class="strip__image objectfit--cover" src="../css/images/large/03-monkey-lg.jpg" alt="image de gorille">
         </div>
     </section>
-    </section>
 
 
-        <footer class="footer-page">
-            <div class="block-author">
-                <div class="author-picture">
-                    <img class="objectfit-cover" src="../img/pp.jpg" alt="photo de l'auteur">
-                </div>
-                <div class="autho-info">
-                    <h3> contact </h3>
-                    <p>Antoine GIRY </p>
-                    <p>ECV Digital</p>
-                    <div class="footer-social">
-                        <a href="https://www.antoinegiry.fr"><img alt="Website" src="../img/icn/icn-web.png"></a>
-                        <a href="https://www.behance.net/antoinegiry"><img alt="Website" src="../img/icn/icn-behance.png"></a>
-                        <a href="https://www.github.com/AntoineGiry"><img alt="Website" src="../img/icn/icn-git.png"></a>
-                    </div>
-                </div>
-
+    <footer class="block__footer">
+        <div class="block__footer__author">
+          <div class="author__picture">
+            <img class="objectfit--cover" src="../img/pp.jpg" alt="photo de l'auteur">
+          </div>
+          <div class="autho__info">
+            <h3> contact </h3>
+            <p>Antoine GIRY </p>
+            <p>ECV Digital</p>
+            <div class="social">
+              <a href="https://www.antoinegiry.fr"><img alt="Website" src="../img/icn/icn-web.png"></a>
+              <a href="https://www.behance.net/antoinegiry"><img alt="Behance" src="../img/icn/icn-behance.png"></a>
+              <a href="https://www.github.com/AntoineGiry"><img alt="Github" src="../img/icn/icn-git.png"></a>
             </div>
-            <div class="nav_footer">
-                <h3>Site navigation</h3>
-                <ul>
-                    <li><a href="../index.html" title="Home">Home</a></li>
-                    <li><a href="responsive.html" title="Responsive">Responsive</a></li>
-                    <li><a href="flex.html" title="Flexbox">Flex</a></li>
-                    <li><a href="grid.html" title="Grid Layout">Grid</a></li>
-                    <li><a href="transforms.html" title="CSS Transforms">Transforms</a></li>
-                </ul>
-            </div>
-        </footer>
+        </div>
+    
+        </div>
+        <div class="block__footer__nav">
+          <h3>Site navigation</h3>
+          <ul>
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="pages/responsive.html" title="Responsive">Responsive</a></li>
+            <li><a href="pages/flex.html" title="Flexbox">Flex</a></li>
+            <li><a href="pages/grid.html" title="Grid Layout">Grid</a></li>
+            <li><a href="pages/transforms.html" title="CSS Transforms">Transforms</a></li>
+          </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

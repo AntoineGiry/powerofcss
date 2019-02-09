@@ -2,37 +2,37 @@
 /* PAGE RESPONSIVE */
 /******************/
 
-.large-img{
+.image--large {
     width: 80%;
     height: 60vh;
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.6)), url("../images/large/09-monkey-lg.jpg") ;
     border: solid 18px rgb(255, 255, 255);
     resize:both;
     overflow:auto; 
-  }
+}
   
-  .fixed-background {
-    background-attachment: fixed;
-    background-image: linear-gradient(rgba(16, 105, 238, 0.5), rgba(139, 118, 255, 0.6)), url("../images/large/08-monkey-lg.jpg") ;
-    height: 60vh;
-    width: 100%;
-  }
-  .img-responsive-strip {
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-gap: 2rem;
-  }
-  .img-responsive-strip .img-strip{
-    grid-column: span 6;
-    margin: 0;
-    display: block;
+.background--fixed {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(16, 105, 238, 0.5), rgba(139, 118, 255, 0.6)), url("../images/large/08-monkey-lg.jpg") ;
+  height: 60vh;
+  width: 100%;
+}
+.strip {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 2rem;
+}
+.strip .strip__image{
+  grid-column: span 6;
+  margin: 0;
+  display: block;
+  height: 20rem;
+  width: 100%;
+}
+@media screen and (min-width: 960px) {
+  .strip .strip__image{
+    grid-column: span 2;
     height: 20rem;
     width: 100%;
   }
-  @media screen and (min-width: 960px) {
-    .img-responsive-strip .img-strip{
-      grid-column: span 2;
-      height: 20rem;
-      width: 100%;
-    }
-  }
+}

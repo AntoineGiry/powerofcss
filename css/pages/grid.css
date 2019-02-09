@@ -7,7 +7,7 @@
     height: 25rem;
     box-shadow: 0 0 16px rgb(198, 209, 230, 1);
 }
-.card-gorilla .card-text-content{
+.card-gorilla__text{
     padding: 1rem;
 }
 .card-gorilla img{
