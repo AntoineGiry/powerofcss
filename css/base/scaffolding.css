@@ -48,7 +48,7 @@
 }
 
 
-/* BLOC DE DEMO */ 
+/* BLOC DE DEMO TRANSFORM */ 
 .element {
     text-align: center;
     display: inline-block;
@@ -69,9 +69,15 @@
     width: 20rem;
     height: 15rem;
 }
-.square p{
+.square p, .square--small p{
 	color: white;
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
+}
+.square--small{
+    background: rgb(71, 172, 255);
+    margin: 1.5rem;
+    width: 10rem;
+    height: 8rem;
 }
