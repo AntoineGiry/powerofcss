@@ -3,6 +3,26 @@
 	background-color: #f4f8fe;
   }
 
+/****************************/
+/* BODY Backgorund responsive */
+@media screen and (max-width: 960px) {
+	.section--blue {
+	  background-color: rgb(255, 243, 243);
+   }
+}
+
+@media screen and (max-width: 768px) {
+	.section--blue {
+	  background-color: rgb(240, 255, 244);
+   }
+}
+@media screen and (max-width: 375px) {
+	.section--blue {
+	  background-color: rgb(241, 233, 255);
+   }
+}
+
+
 /* CENTRER vertical ET horizontal UN ELEMENT DANS SON BLOCK */
 .container--flex{
 	display: flex;
@@ -56,8 +76,7 @@
     height: 10rem;
     width: 10rem;
     color: white;
-    margin-right: 4rem;
-    margin-left: 4rem;
+	margin : 4rem;
 }
 
 

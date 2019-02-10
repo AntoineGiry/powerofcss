@@ -29,10 +29,4 @@
   height: 20rem;
   width: 100%;
 }
-@media screen and (min-width: 960px) {
-  .strip .strip__image{
-    grid-column: span 2;
-    height: 20rem;
-    width: 100%;
-  }
-}
+
