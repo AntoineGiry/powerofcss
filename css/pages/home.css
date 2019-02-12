@@ -5,7 +5,7 @@
 /*******************************/
 /* Background clip sur le text*/
 .clip-background{
-	background-image: url("../images/large/08-monkey-lg.jpg");
+	background-image: url("../images/large/02-monkey-lg.jpg");
 	background-clip: text;
 	background-color: #6B5AED;
 	-webkit-background-clip: text;
