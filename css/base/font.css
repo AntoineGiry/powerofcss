@@ -27,11 +27,8 @@ h3{
   color: #000;
   line-height: 7rem;
   margin-bottom: 2rem;
-  animation-duration: 4s;
-  animation-name: colorchange;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
+
 .main__subtitle{
   text-align: center;
   font-size: 2.6rem;

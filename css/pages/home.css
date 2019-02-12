@@ -2,6 +2,16 @@
 /* HOME PAGE */
 /*************/
 
+/*******************************/
+/* Background clip sur le text*/
+.clip-background{
+	background-image: url("../images/large/08-monkey-lg.jpg");
+	background-clip: text;
+	background-color: #6B5AED;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
 /*************************
 /* Section 01 Resize Me */
 .block__image--content{
